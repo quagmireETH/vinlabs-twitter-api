@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "fonarto";
+  src: url("/fonts/fonarto.regular.ttf");
+}
+
+@font-face {
+  font-family: "nasalization";
+  src: url("/fonts/nasalization-free.rg-regular.otf");
+}
+
+body {
+  background: linear-gradient(
+    to bottom,
+    #000000 0%,
+    #141418 20%,
+    #141418 30%,
+    #000000 45%,
+    #000000 55%,
+    #141418 70%,
+    #141418 100%
+  );
+  
+  overflow-x: hidden;
+}
+
+p, td, th {
+  font-family: "fonarto";
+  color: white;
+}
+
+@keyframes moveArrow {
+  0%, 100% { transform: translateY(-4px); }
+  25% { transform: translateY(1px); }
+  50% { transform: translateY(-4px); }
+  75% { transform: translateY(1px); }
+}
+
+
+.your-arrow-class {
+  animation: moveArrow 3s infinite ease-in-out;
+}
+
+.your-arrow-class:hover {
+  animation-play-state: paused;
+}
+
+
