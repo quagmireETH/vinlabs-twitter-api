@@ -13,19 +13,21 @@ export default async function handler(req, res) {
 
   const client = new Twitter({
     version: "2",
-    extension: false,
+    extension: "false",
     subdomain: "api",
     consumer_key: process.env.TWITTER_CLIENT_ID,
     consumer_secret: process.env.TWITTER_CLIENT_SECRET,
-    access_token_key: token.accessToken,
-  });
+    access_token_key: process.env.TWITTER_ACCESS_TOKEN,
+    access_token_secret: process.env.TWITTER_ACCESS_SECRET,
+    bearer_token: process.env.TWITTER_BEARER_TOKEN
+});
 
   console.log("Twitter Data - Session:", session);
   console.log("Twitter Data - Token:", token);
   console.log("Twitter Data - Client:", client);
 
-  const searchQuery = "#VIN from:" + session.user.name;
-  console.log("Search query:", searchQuery);
+  const searchQuery = `#VIN from:${session.user.name}`;
+  console.log("Search query:", searchQuery);  
 
   try {
     const tweets = await client.get("tweets/search/recent", {
@@ -58,13 +60,21 @@ export default async function handler(req, res) {
       quoteCount,
       mentionCount,
     };
-
-    console.log("Twitter Data - Search Query:", searchQuery);
     console.log("Tweets:", tweets);
 
     res.status(200).json(twitterData);
   } catch (error) {
     console.error("Error fetching data from Twitter:", error);
+  
+    if (error.response) {
+      try {
+        const errorResponseText = await error.response.text();
+        console.error("Raw error response from Twitter:", errorResponseText);
+      } catch (responseError) {
+        console.error("Error reading the error response:", responseError);
+      }
+    }
+  
     res.status(500).json({ error: "Internal Server Error", details: error.message });
   }
-}
+}  

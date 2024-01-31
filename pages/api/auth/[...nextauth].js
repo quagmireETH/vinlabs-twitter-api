@@ -19,7 +19,7 @@ export default NextAuth({
 
         // If the user has just signed in
         if (account) {
-          token.accessToken = account.access_token;
+          token.accessToken = account.access_token_key;
           token.id = account.userId;
           token.accessTokenSecret = account.access_token_secret;
         }
