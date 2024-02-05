@@ -14,6 +14,27 @@ function Coming_Soon() {
               Coming Soon
             </p>
           </div>
+
+          <div className="mt-4 max-[950px]:flex max-[950px]:justify-center max-[950px]:items-center">
+            <Link
+              href="https://twitter.com/vinlandnft"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="border-2 border-white rounded-lg py-1.5 px-12 mt-6 hover:bg-[#2E2C30] shadow-md shadow-white hover:translate-y-2 hover:shadow-none max-[1225px]:px-8 max-[1225px]:py-0.5 max-[950px]:px-12 max-[950px]:py-1.5">
+                <p className="text-lg">Twitter</p>
+              </button>
+            </Link>
+            <Link
+              href="https://discord.gg/qx4fDwEHUB"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="ml-16 border-2 border-white rounded-lg py-1.5 px-12 mt-6 hover:bg-[#2E2C30] shadow-md shadow-white hover:translate-y-2 hover:shadow-none max-[1225px]:px-8 max-[1225px]:py-0.5 max-[950px]:px-12 max-[950px]:py-1.5">
+                <p className="text-lg">Discord</p>
+              </button>
+            </Link>
+          </div>
         </div>
 
         <img

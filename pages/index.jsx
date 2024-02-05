@@ -76,8 +76,8 @@ export default function Home() {
                 </Link>
               </div>
               <img
-                className="absolute -bottom-5 -right-5 w-20"
-                src="/Vin Land.png"
+                className="absolute -bottom-5 -right-5 w-12 rotate-12"
+                src="/Vin App.webp"
                 alt=""
               />
             </div>
@@ -95,8 +95,8 @@ export default function Home() {
                 </Link>
               </div>
               <img
-                className="absolute -bottom-5 -right-5 w-12 rotate-12"
-                src="/Vin App.webp"
+                className="absolute -bottom-5 -right-5 w-20"
+                src="/Vin Land.png"
                 alt=""
               />
             </div>

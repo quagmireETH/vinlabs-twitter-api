@@ -10,16 +10,10 @@ function VinPass() {
       <div className="h-screen relative">
         <Header_other />
 
-        <div className="flex flex-col justify-center items-center mt-36 relative px-10 max-[910px]:mt-8 max-[710px]:mt-14">
+        <div className="flex flex-col justify-center items-center mt-52 relative px-10 max-[910px]:mt-8 max-[710px]:mt-14">
           <div className="w-[900px] max-[910px]:w-[700px] max-[710px]:w-[600px] max-[610px]:w-[500px] max-[510px]:w-[400px] max-[410px]:w-[300px]">
             <p className="text-9xl text-center max-[710px]:text-8xl max-[510px]:text-7xl max-[410px]:text-6xl">
               Vin Collectives
-            </p>
-            <p className="text-center mt-7 px-4 max-[410px]:px-0">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
-              commodi modi quia pariatur eligendi quis deserunt velit similique
-              perspiciatis ad ullam quas dolore, numquam sit architecto incidunt
-              mollitia aliquam magni.
             </p>
           </div>
         </div>
