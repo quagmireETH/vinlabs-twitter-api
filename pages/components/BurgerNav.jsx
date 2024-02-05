@@ -24,7 +24,7 @@ function MobileNav({ open, setOpen }) {
         </a>
         <a className="my-4 border-b-2 border-white w-full">
           <Link href="\VinCollective\VinCollective">
-            <p className="text-2xl mb-4">Vin Pass</p>
+            <p className="text-2xl mb-4">Vin Collectives</p>
           </Link>
         </a>
         <a className="my-4 border-b-2 border-white w-full">
