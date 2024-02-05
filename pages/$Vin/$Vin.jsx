@@ -1,5 +1,4 @@
 import React from "react";
-import { signIn, signOut, getSession } from "next-auth/react";
 import Header_other from "../components/Header_other";
 import ScrollButton from "../components/ScrollButton";
 import Page1 from "./Page1";
