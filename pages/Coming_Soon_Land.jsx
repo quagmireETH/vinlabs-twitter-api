@@ -38,7 +38,7 @@ function Coming_Soon() {
         </div>
 
         <img
-          className="absolute right-10 bottom-10 opacity-70 -z-10 max-[490px]:w-80"
+          className="absolute right-10 bottom-10 opacity-70 max-[490px]:w-80"
           src="/Vin Land.PNG"
           alt=""
         />
