@@ -24,13 +24,13 @@ function $Vin({ session }) {
               platform
             </p>
             <div className="mt-10 flex items-center justify-center">
-              <button className="mr-12 rounded-lg border-2 border-white px-5 py-1.5 shadow-md shadow-white hover:translate-y-2 hover:bg-[#2E2C30] hover:shadow-none">
-                <p className="text-lg">Get Started</p>
+              <button className="rounded-lg border-2 border-white px-5 py-1.5 shadow-md shadow-white hover:translate-y-2 hover:bg-[#2E2C30] hover:shadow-none">
+                <p className="text-lg">Coming Soon</p>
               </button>
 
-              <button className="rounded-lg border-2 border-white px-5 py-1.5 shadow-md shadow-white hover:translate-y-2 hover:bg-[#2E2C30] hover:shadow-none">
+              {/** <button className="rounded-lg border-2 border-white px-5 py-1.5 shadow-md shadow-white hover:translate-y-2 hover:bg-[#2E2C30] hover:shadow-none">
                 <p className="text-lg">Learn More</p>
-              </button>
+              </button>*/}
             </div>
           </div>
         </div>

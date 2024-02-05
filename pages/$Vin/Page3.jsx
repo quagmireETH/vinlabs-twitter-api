@@ -57,9 +57,9 @@ function Page3() {
               <img className="w-8" src="/refund-claim-svgrepo-com.svg" alt="" />
             </div>
             <div className=" max-[1230px]:bg-[#141418]">
-              <p className="font-bold text-lg text-center max-[1230px]:mt-2">Claim $ENGAGE</p>
+              <p className="font-bold text-lg text-center max-[1230px]:mt-2">Claim $VIN</p>
               <p className="text-center text-sm">
-                Each user can claim their share of $ENGAGE tokens either through
+                Each user can claim their share of $VIN tokens either through
                 our dedicated claim website or by receiving them through an
                 airdrop distribution.
               </p>

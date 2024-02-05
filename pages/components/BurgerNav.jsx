@@ -18,7 +18,7 @@ function MobileNav({ open, setOpen }) {
     >
       <div className="flex flex-col justify-start items-start mt-10 p-5">
         <a className="my-4 border-b-2 border-white w-full">
-          <Link href="VinPass/VinPass">
+          <Link href="\VinCollective\VinCollective">
             <p className="text-2xl mb-4">Vin Pass</p>
           </Link>
         </a>
@@ -30,6 +30,11 @@ function MobileNav({ open, setOpen }) {
         <a className="my-4 border-b-2 border-white w-full">
           <Link href="/Coming_Soon_Land">
             <p className="text-2xl mb-4">Vin Lands</p>
+          </Link>
+        </a>
+        <a className="my-4 border-b-2 border-white w-full">
+          <Link href="/">
+            <p className="text-2xl mb-4">Home</p>
           </Link>
         </a>
 

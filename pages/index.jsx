@@ -51,7 +51,7 @@ export default function Home() {
             <p className="text-lg italic mb-2">Phase 1: Complete</p>
             <div className="bg-[#2E2C30] pl-4 pr-5 pb-4 pt-4 rounded-md shadow-md shadow-white max-[950px]:pr-20 max-[730px]:w-[600px] max-[675px]:w-[500px] max-[550px]:w-[400px] max-[450px]:w-[300px]">
               <p className="text-2xl mb-6 max-[950px]:mb-4">VIN COLLECTIVES</p>
-              <Link href="VinPass/VinPass">
+              <Link href="VinCollective/VinCollective">
                 <p className="cursor-pointer text-sm ease-in-out duration-100 hover:underline hover:translate-x-2">
                   Take a look &rarr;
                 </p>
