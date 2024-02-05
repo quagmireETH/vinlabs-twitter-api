@@ -25,31 +25,9 @@ function $Vin({ session }) {
               platform
             </p>
             <div className="mt-10 flex items-center justify-center">
-              {/* New */}
-
-              {!session && (
-                <button
-                  onClick={() => signIn()}
-                  className="mr-12 rounded-lg border-2 border-white px-5 py-1.5 shadow-md shadow-white hover:translate-y-2 hover:bg-[#2E2C30] hover:shadow-none"
-                >
-                  <p className="text-lg">Get Started</p>
-                </button>
-              )}
-              {session && (
-                <>
-                  <Link href="/Dashboard/Dashboard">
-                    <button className="mr-12 rounded-lg border-2 border-white px-5 py-1.5 shadow-md shadow-white hover:translate-y-2 hover:bg-[#2E2C30] hover:shadow-none">
-                      <p className="text-lg">Go To Dashboard</p>
-                    </button>
-                  </Link>
-                  <button
-                    onClick={() => signOut()}
-                    className="mr-12 rounded-lg border-2 border-white px-5 py-1.5 shadow-md shadow-white hover:translate-y-2 hover:bg-[#2E2C30] hover:shadow-none"
-                  >
-                    <p className="text-lg">Sign Out</p>
-                  </button>
-                </>
-              )}
+              <button className="mr-12 rounded-lg border-2 border-white px-5 py-1.5 shadow-md shadow-white hover:translate-y-2 hover:bg-[#2E2C30] hover:shadow-none">
+                <p className="text-lg">Get Started</p>
+              </button>
 
               <button className="rounded-lg border-2 border-white px-5 py-1.5 shadow-md shadow-white hover:translate-y-2 hover:bg-[#2E2C30] hover:shadow-none">
                 <p className="text-lg">Learn More</p>

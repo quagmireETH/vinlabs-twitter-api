@@ -20,9 +20,24 @@ export default function Home() {
             decentralized realm.
           </p>
           <div className="max-[950px]:flex max-[950px]:justify-center max-[950px]:items-center">
-            <button className="border-2 border-white rounded-lg py-1.5 px-12 mt-6 hover:bg-[#2E2C30] shadow-md shadow-white hover:translate-y-2 hover:shadow-none max-[1225px]:px-8 max-[1225px]:py-0.5 max-[950px]:px-12 max-[950px]:py-1.5">
-              <p className="text-lg">Button</p>
-            </button>
+            <Link
+              href="https://twitter.com/Vin_Labs"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="border-2 border-white rounded-lg py-1.5 px-12 mt-6 hover:bg-[#2E2C30] shadow-md shadow-white hover:translate-y-2 hover:shadow-none max-[1225px]:px-8 max-[1225px]:py-0.5 max-[950px]:px-12 max-[950px]:py-1.5">
+                <p className="text-lg">Twitter</p>
+              </button>
+            </Link>
+            <Link
+              href="https://discord.gg/qx4fDwEHUB"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <button className="ml-16 border-2 border-white rounded-lg py-1.5 px-12 mt-6 hover:bg-[#2E2C30] shadow-md shadow-white hover:translate-y-2 hover:shadow-none max-[1225px]:px-8 max-[1225px]:py-0.5 max-[950px]:px-12 max-[950px]:py-1.5">
+                <p className="text-lg">Discord</p>
+              </button>
+            </Link>
           </div>
         </div>
         <div className="ml-4 max-[950px]:hidden">
@@ -34,8 +49,8 @@ export default function Home() {
         <div className="flex justify-between items-center w-full max-[730px]:flex-col">
           <div className="relative">
             <p className="text-lg italic mb-2">Phase 1: Complete</p>
-            <div className="bg-[#2E2C30] pl-4 pr-28 pb-4 pt-4 rounded-md shadow-md shadow-white max-[950px]:pr-20 max-[730px]:w-[600px] max-[675px]:w-[500px] max-[550px]:w-[400px] max-[450px]:w-[300px]">
-              <p className="text-2xl mb-6 max-[950px]:mb-4">Vin Pass</p>
+            <div className="bg-[#2E2C30] pl-4 pr-5 pb-4 pt-4 rounded-md shadow-md shadow-white max-[950px]:pr-20 max-[730px]:w-[600px] max-[675px]:w-[500px] max-[550px]:w-[400px] max-[450px]:w-[300px]">
+              <p className="text-2xl mb-6 max-[950px]:mb-4">VIN COLLECTIVES</p>
               <Link href="VinPass/VinPass">
                 <p className="cursor-pointer text-sm ease-in-out duration-100 hover:underline hover:translate-x-2">
                   Take a look &rarr;
@@ -50,21 +65,40 @@ export default function Home() {
           </div>
 
           <div className="max-[730px]:mt-14">
-            <p className="text-lg italic mb-2">Phase 2: In Progress</p>
-            <div className="bg-[#2E2C30] pl-4 pr-28 pb-4 pt-4 rounded-md shadow-md shadow-white max-[950px]:pr-20 max-[730px]:w-[600px] max-[675px]:w-[500px] max-[550px]:w-[400px] max-[450px]:w-[300px]">
-              <p className="text-2xl mb-6 max-[950px]:mb-4">Vin App</p>
-              <p className="cursor-pointer text-sm ease-in-out duration-100 hover:underline hover:translate-x-2">
-                Take a look &rarr;
-              </p>
+            <div className="relative">
+              <p className="text-lg italic mb-2">Phase 2: In Progress</p>
+              <div className="bg-[#2E2C30] pl-4 pr-28 pb-4 pt-4 rounded-md shadow-md shadow-white max-[950px]:pr-20 max-[730px]:w-[600px] max-[675px]:w-[500px] max-[550px]:w-[400px] max-[450px]:w-[300px]">
+                <p className="text-2xl mb-6 max-[950px]:mb-4">Vin App</p>
+                <Link href="/Coming_Soon_App">
+                  <p className="cursor-pointer text-sm ease-in-out duration-100 hover:underline hover:translate-x-2">
+                    Take a look &rarr;
+                  </p>
+                </Link>
+              </div>
+              <img
+                className="absolute -bottom-5 -right-5 w-20"
+                src="/Vin Land.png"
+                alt=""
+              />
             </div>
           </div>
+
           <div className="mr-20 max-[730px]:mt-14 max-[730px]:mr-0">
-            <p className="text-lg italic mb-2">Phase 3: In Progress</p>
-            <div className="bg-[#2E2C30] pl-4 pr-28 pb-4 pt-4 rounded-md shadow-md shadow-white max-[950px]:pr-20 max-[730px]:w-[600px] max-[675px]:w-[500px] max-[550px]:w-[400px] max-[450px]:w-[300px]">
-              <p className="text-2xl mb-6 max-[950px]:mb-4">Vin Lands</p>
-              <p className="cursor-pointer text-sm ease-in-out duration-100 hover:underline hover:translate-x-2">
-                Take a look &rarr;
-              </p>
+            <div className="relative">
+              <p className="text-lg italic mb-2">Phase 3: In Progress</p>
+              <div className="bg-[#2E2C30] pl-4 pr-28 pb-4 pt-4 rounded-md shadow-md shadow-white max-[950px]:pr-20 max-[730px]:w-[600px] max-[675px]:w-[500px] max-[550px]:w-[400px] max-[450px]:w-[300px]">
+                <Link href="/Coming_Soon_Land">
+                  <p className="text-2xl mb-6 max-[950px]:mb-4">Vin Lands</p>
+                  <p className="cursor-pointer text-sm ease-in-out duration-100 hover:underline hover:translate-x-2">
+                    Take a look &rarr;
+                  </p>
+                </Link>
+              </div>
+              <img
+                className="absolute -bottom-5 -right-5 w-12 rotate-12"
+                src="/Vin App.webp"
+                alt=""
+              />
             </div>
           </div>
         </div>

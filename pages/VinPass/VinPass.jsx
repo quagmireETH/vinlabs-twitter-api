@@ -21,18 +21,6 @@ function VinPass() {
               perspiciatis ad ullam quas dolore, numquam sit architecto incidunt
               mollitia aliquam magni.
             </p>
-            <div className="flex justify-center items-center mt-10">
-              <Link href="/$Vin/$Vin">
-                <button className="border-2 border-white rounded-lg py-1.5 px-5 mr-12 hover:bg-[#2E2C30] shadow-md shadow-white hover:translate-y-2 hover:shadow-none">
-                  <p className="text-lg">Earn $VIN</p>
-                </button>
-              </Link>
-              <Link href="/$Vin/$Vin">
-                <button className="border-2 border-white rounded-lg py-1.5 px-5 hover:bg-[#2E2C30] shadow-md shadow-white hover:translate-y-2 hover:shadow-none">
-                  <p className="text-lg">Earn $VIN</p>
-                </button>
-              </Link>
-            </div>
           </div>
         </div>
 

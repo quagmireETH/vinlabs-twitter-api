@@ -18,17 +18,17 @@ function MobileNav({ open, setOpen }) {
     >
       <div className="flex flex-col justify-start items-start mt-10 p-5">
         <a className="my-4 border-b-2 border-white w-full">
-          <Link href="/">
+          <Link href="VinPass/VinPass">
             <p className="text-2xl mb-4">Vin Pass</p>
           </Link>
         </a>
         <a className="my-4 border-b-2 border-white w-full">
-          <Link href="/">
+          <Link href="/Coming_Soon_App">
             <p className="text-2xl mb-4">Vin App</p>
           </Link>
         </a>
         <a className="my-4 border-b-2 border-white w-full">
-          <Link href="/">
+          <Link href="/Coming_Soon_Land">
             <p className="text-2xl mb-4">Vin Lands</p>
           </Link>
         </a>
@@ -41,17 +41,17 @@ function MobileNav({ open, setOpen }) {
           </Link>
         </div>
 
-        <Link href="" rel="noreferrer" target="_blank">
+        <Link href="https://twitter.com/Vin_Labs" rel="noreferrer" target="_blank">
           <img
-            src="/tgAsset_22.svg"
-            className="w-8 mb-4 mt-8 cursor-pointer"
+            src="/twAsset_21.svg"
+            className="w-8 mt-8 cursor-pointer"
             alt=""
           />
         </Link>
-        <Link href="" rel="noreferrer" target="_blank">
+        <Link href="https://discord.gg/qx4fDwEHUB" rel="noreferrer" target="_blank">
           <img
-            src="/twAsset_21.svg"
-            className="w-8 my-2 cursor-pointer"
+            src="/discord.svg"
+            className="w-8 mb-4 mt-4 cursor-pointer"
             alt=""
           />
         </Link>
