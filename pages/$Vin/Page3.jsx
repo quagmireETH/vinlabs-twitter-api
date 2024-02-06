@@ -17,7 +17,7 @@ function Page3() {
             <div className=" max-[1230px]:bg-[#141418]">
               <p className="font-bold text-lg text-center max-[1230px]:mt-2">Engage</p>
               <p className="text-center text-sm">
-                Mention $ENGAGE on the X/Twitter platform to start earning
+                Mention $VIN on the X/Twitter platform to start earning
                 points.
               </p>
             </div>
