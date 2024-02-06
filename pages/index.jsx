@@ -41,7 +41,7 @@ export default function Home() {
           </div>
         </div>
         <div className="ml-4 max-[950px]:hidden">
-          <img src="/Vin Pass.PNG" alt="" />
+          <img className="w-96 rounded-3xl" src="/3.gif" alt="" />
         </div>
       </div>
 
